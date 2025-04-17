@@ -36,12 +36,12 @@
               Work</a
             >
           </li>
-          <li class="nav-list">
+          <!-- <li class="nav-list">
             <a href="#blog"
               >
               Blog</a
             >
-          </li>
+          </li> -->
           <li class="nav-list">
             <a href="#contact-me"
               >
@@ -81,7 +81,7 @@
         </div>
         <div class="about-card">
           <h3>My Development Mantra</h3>
-          I believe great software is built through steady progress and collaboration. My approach centers on patience—whether it's carefully debugging an issue or methodically learning new concepts. I thrive in team environments where we can combine our strengths, and I measure my growth day by day rather than expecting overnight mastery. Right now, I'm actively working to strengthen my creative problem-solving skills through pair programming and studying well-architected codebases.
+          I believe great software is built through steady progress and collaboration. My approach centers on patience—whether it's carefully debugging an issue or methodically learning new concepts. I thrive in team environments where we can combine our strengths, and I measure my growth day by day rather than expecting overnight mastery. Right now, I'm actively working to strengthen my creative problem-solving skills and studying well-architected codebases.
         </div>
         <div class="about-card">
           <h3>Education</h3>
@@ -95,7 +95,7 @@
             <div class="education-box">
               <h4>B.Tech Electrical Engineering</h4>
               <p class="institution">RVR & JC College of Engineering</p>
-              <p class="duration">Duration: 2021 - 2022</p>
+              <p class="duration">Duration: 2016 - 2020</p>
               <!-- <div class="education-tag">GPA: 7.7/10.0</div> -->
             </div> 
           </div>
@@ -119,9 +119,9 @@
               <h3>Core Development</h3>
             </div>
             <ul class="skill-items">
-              <li data-projects="3 projects">HTML5</li>
-              <li data-projects="3 projects">CSS3</li>
-              <li data-projects="4 projects">JavaScript</li>
+              <li data-projects="2 projects">HTML5</li>
+              <li data-projects="2 projects">CSS3</li>
+              <li data-projects="2 projects">JavaScript</li>
               <li data-projects="2 projects">React</li>
               <li data-projects="1 project">Kendo UI</li>
             </ul>
@@ -134,7 +134,7 @@
             <ul class="skill-items">
               <li data-projects="2 projects">Node.js</li>
               <li data-projects="1 project">PostgreSQL</li>
-              <li data-projects="1 project">MongoDB</li>
+              <li data-projects="2 project">MongoDB</li>
               <li data-projects="1 project">MySQL</li>
             </ul>
           </div>
@@ -146,7 +146,7 @@
             <ul class="skill-items">
               <li data-projects="All projects">Git</li>
               <li data-projects="All projects">VS Code</li>
-              <li data-projects="3 projects">Postman</li>
+              <li data-projects="2 projects">Postman</li>
               <li data-projects="2 projects">Swagger</li>
               <li data-projects="1 project">AWS</li>
               <li data-projects="1 project">Azure</li>
@@ -233,18 +233,18 @@
               </div>
               <div class="project-card">
                 <img src="./assets/sample-landing-page.png" alt="3 Column Card">
-                <h3 class="project-header" >Three-Column Card</h3>
+                <h3 class="project-header" >Landing Page</h3>
                 <div class="project-links">
                   <a href="https://github.com/priyusha-10/LandingPage" target="_blank">&lt;/&gt;</a>
                   <a href="https://sample-landing-sign-up-page.netlify.app/" target="_blank">Live</a>
                 </div>
               </div>
               <div class="project-card">
-                <img src="./assets/frontendmentor3columncard.png" alt="3 Column Card">
-                <h3 class="project-header">Three-Column Card</h3>
+                <img src="./assets/Recpie.png" alt="Recepie Image">
+                <h3 class="project-header">Recipe Page</h3>
                 <div class="project-links">
-                  <a href="https://github.com/priyusha-10/FrontendMentor3Column" target="_blank">&lt;/&gt;</a>
-                  <a href="https://3-column-prview-card-sample.netlify.app/" target="_blank">Live</a>
+                  <a href="https://github.com/priyusha-10/Recipe_page" target="_blank">&lt;/&gt;</a>
+                  <a href="https://recipe-page-byfrontendmentor.netlify.app/" target="_blank">Live</a>
                 </div>
               </div>
             </div>
@@ -254,10 +254,30 @@
         </div>
       </section>
 
-      <section id="blog"></section>
-      <section id="contact-me"></section>
+      <!-- <section id="blog"></section> -->
+      <section id="contact-me">    
+        <div class="contact-container">
+          <h2 class="contact-title">CONTACT ME</h2>
+        </div>
+        <div class="contact-card">
+          <div class="card">
+            <div class="card-item">
+            <label for="name">Full Name:</label>
+            <input id="name" name="name" type="text" required>
+            </div>
+            <div class="card-item">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+            </div>
+            <div class="card-item">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message"  required></textarea>
+            </div>
+            <div class="card-item"><button type="submit" class="form-button">Submit</button></div>
+          </div>
+        </div>
+      </section>
     </main>
-
     <footer class="footer">
       <p>&copy;priyushachigurupati | Bridging Ideas & Implementation</p>
       <span>
