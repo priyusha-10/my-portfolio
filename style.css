@@ -672,3 +672,90 @@ section {
     color: #FFFFFF;
     background: rgba(178, 104, 104, 0.3);
 }
+
+
+
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 1rem;
+}
+
+
+.contact-card {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(25, 25, 25, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid #B26868;
+}
+
+.card-item {
+    margin-bottom: 1.3rem;
+    width: 100%;
+}
+
+.card-item label {
+    display: block;
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+.card-item input,
+.card-item textarea {
+    width: 100%;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    color: #FFFFFF;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+.card-item input:focus,
+.card-item textarea:focus {
+  outline: none;
+  border-color: #B26868;
+  box-shadow: 0 0 0 2px rgba(178, 104, 104, 0.2);
+}
+
+.card-item textarea {
+    resize: vertical;
+    min-height: 70px;
+}
+
+
+
+.form-button {
+    height: 30px;
+    width: 100%;
+    border: 1px solid #B26868;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+.form-button:hover {
+    transform: translateY(-2px);
+    background: #B26868;
+}
